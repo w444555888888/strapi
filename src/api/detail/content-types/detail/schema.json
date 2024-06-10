@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details",
+  "info": {
+    "singularName": "detail",
+    "pluralName": "details",
+    "displayName": "detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "todoTitle": {
+      "type": "string"
+    },
+    "done": {
+      "type": "boolean"
+    },
+    "datePicker": {
+      "type": "datetime"
+    },
+    "pic": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "todoId": {
+      "type": "uid"
+    },
+    "todoContent": {
+      "type": "blocks"
+    }
+  }
+}
